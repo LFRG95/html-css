@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
+            /*
            background-color: black;
            background-image: url('imagens/wallpaper002.jpg');
-           background-position: center top;
+           background-position: center center;
            background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+            */
+
+           /* Shorthand - background
+
+           color > image > position > repeat> {size}> attachment
+
+           */
+           background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -26,6 +37,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt sequi, incidunt ducimus quasi laboriosam? Quidem, enim, in voluptates recusandae accusantium consectetur fugit debitis nulla porro, cumque maxime fuga laboriosam?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit porro obcaecati provident earum corrupti. Quod qui dolorum iste vitae consequuntur pariatur accusantium neque mollitia cum quisquam a harum, quis excepturi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laboriosam, possimus nobis delectus eius unde, nulla quae assumenda totam ipsam veniam, quos similique. In molestiae natus ipsa sequi corrupti debitis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt sequi, incidunt ducimus quasi laboriosam? Quidem, enim, in voluptates recusandae accusantium consectetur fugit debitis nulla porro, cumque maxime fuga laboriosam?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit porro obcaecati provident earum corrupti. Quod qui dolorum iste vitae consequuntur pariatur accusantium neque mollitia cum quisquam a harum, quis excepturi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laboriosam, possimus nobis delectus eius unde, nulla quae assumenda totam ipsam veniam, quos similique. In molestiae natus ipsa sequi corrupti debitis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt sequi, incidunt ducimus quasi laboriosam? Quidem, enim, in voluptates recusandae accusantium consectetur fugit debitis nulla porro, cumque maxime fuga laboriosam?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit porro obcaecati provident earum corrupti. Quod qui dolorum iste vitae consequuntur pariatur accusantium neque mollitia cum quisquam a harum, quis excepturi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laboriosam, possimus nobis delectus eius unde, nulla quae assumenda totam ipsam veniam, quos similique. In molestiae natus ipsa sequi corrupti debitis!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt sequi, incidunt ducimus quasi laboriosam? Quidem, enim, in voluptates recusandae accusantium consectetur fugit debitis nulla porro, cumque maxime fuga laboriosam?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit porro obcaecati provident earum corrupti. Quod qui dolorum iste vitae consequuntur pariatur accusantium neque mollitia cum quisquam a harum, quis excepturi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laboriosam, possimus nobis delectus eius unde, nulla quae assumenda totam ipsam veniam, quos similique. In molestiae natus ipsa sequi corrupti debitis!</p>
     </main>
 </body>
