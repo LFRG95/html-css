@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightslategray;
+            border: 1px solid black;
+            border-bottom: 0px;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas Responsivas</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate necessitatibus fugit! Illum unde, iusto perferendis aspernatur ipsum aperiam suscipit rem totam neque ex odit doloremque, possimus eum animi nesciunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi illo veniam minus soluta corrupti deserunt labore vitae sunt id sit natus, amet blanditiis impedit laborum, eius itaque, fugit fugiat. Doloribus!</p>
+
+    <div id="container">
+        <table>
+            <tbody>
+                <caption>Tabelas Responsivas</caption>
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Jan</th>
+                    <th scope="col">Fev</th>
+                    <th scope="col">Mar</th>
+                    <th scope="col">Abr</th>
+                    <th scope="col">Mai</th>
+                    <th scope="col">Jun</th>
+                    <th scope="col">Jul</th>
+                    <th scope="col">Ago</th>
+                    <th scope="col">Set</th>
+                    <th scope="col">Out</th>
+                    <th scope="col">Nov</th>
+                    <th scope="col">Dez</th>
+                </tr>
+                <tr>
+                    <td>Vassoura</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Basora</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Travesseiro</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Trabiçero</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Vorta</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Berimbal</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Baguar</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
